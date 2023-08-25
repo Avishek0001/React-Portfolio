@@ -54,9 +54,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.github:hover{
-   
-}
+
 
 @media screen and (max-width: 992px) {
     .about_container{
@@ -77,6 +75,7 @@
 
 .about_info{
     justify-content: center;
+ 
 
 }
 
@@ -91,7 +90,8 @@
   
   @media screen and (max-width: 576px) {
     .about_info{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+       
     }
     .about_description{
         padding: 0;
@@ -100,6 +100,9 @@
   
   /* For small devices */
   @media screen and (max-width: 350px) {
-   
+    .about_info{
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 25px;
+    }
   }
   
