@@ -1,6 +1,5 @@
 
 
-
 .about_container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -105,10 +104,5 @@
         grid-template-columns: repeat(3,1fr);
         margin-left: 25px;
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
-   
   }
   
