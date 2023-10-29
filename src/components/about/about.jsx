@@ -24,7 +24,7 @@ import { Padding } from "@mui/icons-material";
                         U can Check the Projects here in My GitHub Accounts
                     </p>
                     <div>
-                    <a href="https://github.com/" className="button button--flex github"  target="_blank" >
+                    <a href="https://github.com/Avishek0001" className="button button--flex github"  target="_blank" >
                         <i class="uil uil-github-alt" style={{"margin-right":"15px"}} ></i> GitHub
                     </a>
                     </div>
