@@ -57,7 +57,10 @@ return (
                 
                 <div className="wrapper">
                 <div className="qualification_button-profile">
-                <a href="https://www.linkedin.com/in/avishek-kundu-6b9a6720b/" className=" profile_text"  target="_blank">
+
+                
+                <a href="https://www.linkedin.com/in/avishek-kundu-6b9a6720b" className=" profile_text"  target="_blank">
+
                 <div className="qualification_icon_style">
                 <i class="uil uil-linkedin-alt"></i>
                 </div>

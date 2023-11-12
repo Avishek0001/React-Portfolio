@@ -22,14 +22,8 @@
                     MERN Developer, I use React as front-end and Nodejs and Express
                         in backend along with database by using MongoDB
                     </p>
-                    {/* <p>
-                        U can Check the Projects Sourc here in My GitHub Accounts
-                    </p> */}
-                    {/* <div>
-                    <a href="https://github.com/" className="button button--flex github"  target="_blank" >
-                        <i class="uil uil-github-alt" style={{"margin-right":"15px"}} ></i> GitHub
-                    </a>
-                    </div> */}
+
+                    
                 <a download="" href={CV} className="button button--flex"> Download CV 
                 <i class="uil uil-file-info-alt" style={{"margin-left":"15px"}}></i>
                 </a>
