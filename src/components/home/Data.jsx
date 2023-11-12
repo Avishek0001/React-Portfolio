@@ -3,7 +3,7 @@ import React from 'react'
 const Data = () =>{
     return (
         <div className="home_data">
-            <h1 className="home_title"> Hi, I'm</h1>
+            <h3 className="home_title" style={{fontSize:'1rem'}}> Hi, I'm</h3>
             <h1 className="home_title"> Avishek Kundu</h1>
             <h3 className="home_subtitle" style={{color:"#00abf0"}}>MERN DEVELOPER</h3>
             <p className="home_description"></p>

@@ -32,7 +32,7 @@
 
   --title-color: #fff;
     --text-color: #fff;
-    --bg-color: #081b29;
+    --bg-color: #041C32;
     --bg-color-alt: #fff;
     --container-color: #081b29;    
     --border-color: #fff;
@@ -75,15 +75,18 @@
 
 /*=============== LIGHT THEME ===============*/
   .light-theme{
+     
+     
     --title-color: #000;
     --text-color: #262626;
-    --bg-color: #f0ebe3;
+    --bg-color: hsl(0, 0%, 94%);
     --bg-color-alt: #fff;
     --container-color: #fff;    
     --border-color: #000;
     --shadow: 5px 5px rgb(0 0 0 / 20%);
 
   }
+ 
 
   
 
@@ -108,10 +111,11 @@ textarea {
 }
 
 body {
-  /* background: linear-gradient(to bottom, #000000, rgb(69, 67, 67)); */
   background-color:var(--bg-color);
   color: var(--title-color);
 }
+
+
 
 body.no-scroll{
   overflow: hidden;

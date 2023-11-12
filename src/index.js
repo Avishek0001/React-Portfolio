@@ -2,14 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import App from './App.js';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Projects from './components/about/Projects.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>
     <React.StrictMode>
-    <App />
+    <Routes>
+        <Route exact path="/" element={ <App /> }>
+        </Route>
+        <Route path="/projects" element={ <Projects /> }>
+        </Route>
+      </Routes>
     </React.StrictMode>
     </BrowserRouter>
   

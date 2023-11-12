@@ -9,6 +9,13 @@
     
 }
 
+
+  body.dark-theme{
+    /* background-image: url("../../MY-INFOs/40.jpg"); */
+    background-color: #003049;
+  }
+  
+
 .nav{
     display: flex;
     position: fixed;
@@ -29,7 +36,7 @@
    width: 0px;
    height: 100vh;
    display: flex;
-   background-color:var(--container-color); ;
+   background-color:var(--container-color); 
    z-index: 10;
    transition: all 0.75s;
   
@@ -201,7 +208,7 @@
         top:0;
         right: 0;
         width: 0px;
-        height: 100vh;
+        height: 80vh;
         display: flex;
         background-color:#081b29 ;
         z-index: 10;
@@ -281,6 +288,9 @@
             
             .nav_link{
                margin-bottom:30px;
+            }
+            .nav_menu{
+                height: 80vh;
             }
 
         }

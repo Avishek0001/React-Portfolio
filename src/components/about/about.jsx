@@ -1,11 +1,13 @@
  import React from "react";
+
  import "./about.css"
  import AboutImage from "../../MY-INFOs/1.jpg"
  import CV from "../../MY-INFOs/Avishek Kundu.pdf"
  import Info from "./info";
-import { Padding } from "@mui/icons-material";
+
 
  function About(){
+    
     return(
         <section className="about section" id="about"> 
         <h2 className="section_title">About Me</h2>
@@ -20,14 +22,14 @@ import { Padding } from "@mui/icons-material";
                     MERN Developer, I use React as front-end and Nodejs and Express
                         in backend along with database by using MongoDB
                     </p>
-                    <p>
-                        U can Check the Projects here in My GitHub Accounts
-                    </p>
-                    <div>
+                    {/* <p>
+                        U can Check the Projects Sourc here in My GitHub Accounts
+                    </p> */}
+                    {/* <div>
                     <a href="https://github.com/" className="button button--flex github"  target="_blank" >
                         <i class="uil uil-github-alt" style={{"margin-right":"15px"}} ></i> GitHub
                     </a>
-                    </div>
+                    </div> */}
                 <a download="" href={CV} className="button button--flex"> Download CV 
                 <i class="uil uil-file-info-alt" style={{"margin-left":"15px"}}></i>
                 </a>
