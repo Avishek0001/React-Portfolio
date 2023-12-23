@@ -13,8 +13,7 @@ function Backend(){
                         <h3 className="skills_name">NODE Js</h3>
                         <span className="skills_level">Basic</span>
                     </div>
-                </div>
-            
+                </div>            
             
                 <div className="skills_data">
                 <i class="uil uil-award-alt"></i>
@@ -23,14 +22,22 @@ function Backend(){
                         <span className="skills_level">Intermediate</span>
 
                     </div>
-                </div>
-            
+                </div>     
 
-           
                 <div className="skills_data">
                 <i class="uil uil-database"></i>
                     <div>
                         <h3 className="skills_name">MongoDB</h3>
+                        <span className="skills_level">Intermediate</span>
+
+                    
+                </div>
+            </div>
+
+                <div className="skills_data">
+                <i class="uil uil-database"></i>
+                    <div>
+                        <h3 className="skills_name">PostGres SQL</h3>
                         <span className="skills_level">Intermediate</span>
 
                     
