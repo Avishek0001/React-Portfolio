@@ -5,7 +5,7 @@ const Data = () =>{
         <div className="home_data">
             <h3 className="home_title" style={{fontSize:'1rem'}}> Hi, I'm</h3>
             <h1 className="home_title"> Avishek Kundu</h1>
-            <h3 className="home_subtitle" style={{color:"#00abf0"}}>MERN DEVELOPER</h3>
+            <h3 className="home_subtitle" style={{color:"#00abf0"}}>Full Stack DEVELOPER</h3>
             <p className="home_description"></p>
 
             <a href="#contact" className="button button--flex" >
